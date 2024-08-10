@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSIS SMA Negeri 3 Semarang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0277bd;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #01579b;
+            color: #fff;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #0277bd;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OSIS SMA Negeri 3 Semarang</h1>
+        <p>OSIS Kita Satu</p>
+    </header>
+    <nav>
+        <a href="#program-kerja">Program Kerja</a>
+        <a href="#alumni">Alumni</a>
+        <a href="#berita">Berita Terbaru</a>
+    </nav>
+    <div class="container">
+        <div id="program-kerja" class="section">
+            <h2>Program Kerja</h2>
+            <p>Halaman ini menampilkan daftar program kerja OSIS dengan masing-masing halaman untuk setiap program.</p>
+            <!-- Contoh link ke program kerja -->
+            <a href="program1.html">Program Kerja 1</a><br>
+            <a href="program2.html">Program Kerja 2</a>
+            <!-- Tambah link ke program kerja lainnya -->
+        </div>
+        <div id="alumni" class="section">
+            <h2>Alumni</h2>
+            <p>Halaman ini menampilkan daftar alumni, dengan masing-masing angkatan memiliki halaman sendiri.</p>
+            <!-- Contoh link ke angkatan alumni -->
+            <a href="alumni2023.html">Alumni 2023</a><br>
+            <a href="alumni2022.html">Alumni 2022</a>
+            <!-- Tambah link ke angkatan alumni lainnya -->
+        </div>
+        <div id="berita" class="section">
+            <h2>Berita Terbaru</h2>
+            <p>Halaman ini menampilkan berita terbaru dan program kerja yang telah dilaksanakan.</p>
+            <!-- Contoh link ke berita terbaru -->
+            <a href="berita1.html">Berita 1</a><br>
+            <a href="berita2.html">Berita 2</a>
+            <!-- Tambah link ke berita terbaru lainnya -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 OSIS SMA Negeri 3 Semarang</p>
+    </footer>
+</body>
+</html>
